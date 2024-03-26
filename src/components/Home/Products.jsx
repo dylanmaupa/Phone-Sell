@@ -33,7 +33,7 @@ const Products = () => {
                         <img src={item.image} alt="" />
                       </div>
                       <div className="textBox">
-                        <h3>Apple</h3>
+                        <h3>iPhone 15 Pro Max</h3>
                         <div className="specs">
                           <div className="spec">
                             <h4>STORAGE</h4>
@@ -231,6 +231,7 @@ const Products = () => {
           </>
         );
       })}
+      <button className='btn'><a href="">View Catalogue</a></button>
     </div>
   );
 };
