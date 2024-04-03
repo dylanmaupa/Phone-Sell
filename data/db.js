@@ -1,154 +1,266 @@
-import phone from '../src/assets/images/phone.png'
+import phone from "../src/assets/images/phone.png";
 
 const data = {
-    latest:[
+  latest: [
+    {
+      image: phone,
+      phone: "Samsung Galaxy Fold 2",
+      storage: "128GB",
+      ram: "12GB",
+      battery: "5000mAh",
+      price: "200",
+    },
+    {
+      image: phone,
+      phone: "",
+      storage: "",
+      ram: "",
+      battery: "",
+      price: "",
+    },
+    {
+      image: phone,
+      phone: "",
+      storage: "",
+      ram: "",
+      battery: "",
+      price: "",
+    },
+    {
+      image: phone,
+      phone: "",
+      storage: "",
+      ram: "",
+      battery: "",
+      price: "",
+    },
+  ],
+  tv: [
+    {
+      image: phone,
+      title: "",
+    },
+    {
+      image: phone,
+      title: "",
+    },
+    {
+      image: phone,
+      title: "",
+    },
+    {
+      image: phone,
+      title: "",
+    },
+  ],
+  Products: [
+    {
+      apple: [
         {
-            image: phone,
-            title: ""
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
         },
         {
-            image: phone,
-            title: ""
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
         },
         {
-            image: phone,
-            title: ""
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
         },
         {
-            image: phone,
-            title: ""
-        }
-    ],
-    tv:[
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+      ],
+      samsung: [
         {
-            image: phone,
-            title: ""
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
         },
         {
-            image: phone,
-            title: ""
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
         },
         {
-            image: phone,
-            title: ""
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
         },
         {
-            image: phone,
-            title: ""
-        }
-    ],
-    Products: [
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+      ],
+      huawei: [
         {
-            apple:[
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-            ],
-            samsung:[
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-            ],
-            huawei:[
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-            ],
-            itel:[
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-            ],
-            redmi:[
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-            ],
-            nokia:[
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-                {
-                    image:phone,
-                    title:"",
-                },
-            ]
-        }
-    ]
-}
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+      ],
+      itel: [
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+      ],
+      redmi: [
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+      ],
+      nokia: [
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+        {
+          image: phone,
+          phone: "",
+          storage: "",
+          ram: "",
+          battery: "",
+          price: "",
+        },
+      ],
+    },
+  ],
+};
 
 export default data;

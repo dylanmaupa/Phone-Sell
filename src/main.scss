@@ -1,125 +1,134 @@
 @import './styles/nav';
 
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    transition: all .2s ease-in-out;
+    transition: all .4s ease-in-out;
     font-family: 'SF Pro Display';
     list-style: none;
 
-    a{
+    a {
         text-decoration: none;
         color: #000;
     }
 }
 
-body{
+body {
     padding: 10px;
+    background: #eaeaea;
 }
 
-#hero{
+#hero {
     width: 100%;
     height: 500px;
-    background: #e4e4e4;
+    background: #fff;
     border-radius: 15px;
-}
-
-#latest,#tv{
-    margin-top: 5rem;
-    h2{
-        text-align: center;
-        font-size: 36px;
-    }
-    .wrapper{
+    text-align: center;
+    .btn {
         margin-top: 50px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
+        border: none;
+        border-radius: 0;
+        background: none;
 
-        .card{
-            background: #e4e4e4;
-            padding: 10px;
-            border-radius: 10px;
-            padding-bottom: 160px;
-        }
-    }
-}
-#tv h2{
-    text-align: left;
-}
-
-#products{
-    // background: blue;
-    margin-top: 5rem;
-    h2{
-        font-size: 36px;
-    }
-    .btn{
-        text-align: center;
-    }
-    .nav-rec{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40px;
-        gap: 120px;
-
-        li{
-            a{
-
-                padding-inline: 20px;
-                padding-block: 10px;
-                font-size: 12px;
-                cursor: pointer;
-            }
-        }
-        .active{
-            border-bottom: 2px solid #000;
+        a {
+            color: #fff;
+            width: 100%;
+            padding:15px 20px;
+            background: #000;
             font-weight: 600;
-        }
-        .tab-link{
-            border: none;
+            // font-size: 12px;
         }
     }
-    .wrapper.Active{
-        display: flex;
+    .btn:hover{
+        a{
+            background: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
     }
-    .wrapper{
+}
+
+#latest,
+#tv {
+    text-align: center;
+    margin-top: 5rem;
+
+    h2 {
+        text-align: center;
+        font-size: 36px;
+    }
+    .btn {
         margin-top: 50px;
-        display: none;
+        border: none;
+        border-radius: 0;
+        background: none;
+
+        a {
+            color: #fff;
+            width: 100%;
+            padding:15px 20px;
+            background: #000;
+            font-weight: 600;
+            // font-size: 12px;
+        }
+    }
+    .btn:hover{
+        a{
+            background: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+    }
+
+    .wrapper {
+        margin-top: 50px;
+        display: flex;
         align-items: center;
         justify-content: space-between;
+        text-align: left;
 
-        .card{
-            background: #e4e4e4;
+        .card {
+            background: #fff;
             padding: 10px;
             border-radius: 10px;
             // padding-bottom: 160px;
 
-            .textBox{
+            .img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .textBox {
                 margin-top: 10px;
-                .specs{
+
+                .specs {
                     display: flex;
                     align-items: center;
                     gap: 30px;
                     margin-block: 20px;
                     // justify-content: space-between;
 
-                    h4{
+                    h4 {
                         font-size: 12px;
                         color: #777;
                     }
                 }
-                .req{
+
+                .req {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    p{
+
+                    p {
                         font-weight: 700;
                         font-size: 24px;
                     }
-                    button{
+
+                    button {
                         background: #24FF00;
                         border: none;
                         padding: 10px 20px;
@@ -129,13 +138,217 @@ body{
                         gap: 10px;
                         align-items: center;
 
-                        .icon{
+                        .icon {
                             font-size: 24px;
                             color: #fff;
                         }
                     }
                 }
             }
+        }
+    }
+}
+
+#tv h2 {
+    text-align: left;
+}
+
+#products {
+    // background: blue;
+    text-align: center;
+    margin-top: 5rem;
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .btn {
+        margin-top: 50px;
+        border: none;
+        border-radius: 0;
+        background: none;
+
+        a {
+            color: #fff;
+            width: 100%;
+            padding:15px 20px;
+            background: #000;
+            font-weight: 600;
+            // font-size: 12px;
+        }
+    }
+    .btn:hover{
+        a{
+            background: #fff;
+            color: #000;
+            border: 1px solid #000;
+        }
+    }
+
+    .nav-rec {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        gap: 120px;
+
+        li {
+            a {
+
+                padding-inline: 20px;
+                padding-block: 10px;
+                font-size: 12px;
+                cursor: pointer;
+            }
+        }
+
+        .active {
+            border-bottom: 2px solid #000;
+            font-weight: 600;
+        }
+
+        .tab-link {
+            border: none;
+        }
+    }
+
+    .wrapper.Active {
+        display: flex;
+    }
+
+    .wrapper {
+        display: none;
+        text-align: left;
+        margin-top: 50px;
+        align-items: center;
+        justify-content: space-between;
+
+        .card {
+            background: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            // padding-bottom: 160px;
+
+            .img {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .textBox {
+                margin-top: 10px;
+
+                .specs {
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    margin-block: 20px;
+                    // justify-content: space-between;
+
+                    h4 {
+                        font-size: 12px;
+                        color: #777;
+                    }
+                }
+
+                .req {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    p {
+                        font-weight: 700;
+                        font-size: 24px;
+                    }
+
+                    button {
+                        background: #24FF00;
+                        border: none;
+                        padding: 10px 20px;
+                        border-radius: 7px;
+                        font-weight: 700;
+                        display: flex;
+                        gap: 10px;
+                        align-items: center;
+
+                        .icon {
+                            font-size: 24px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#latest,
+#tv,
+#products {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+// ********** M E D I A  Q U E R I E S ***********
+// !!!!! iMac !!!!!
+@media(min-width:4000px) {
+
+    #latest,
+    #tv,
+    #products {
+        h2 {
+            font-size: 72px;
+            margin-block: 100px;
+        }
+
+        .wrapper {
+            justify-content: space-evenly;
+
+            .card {
+                width: 15%;
+                padding: 20px;
+
+                .textBox {
+                    h3 {
+                        font-size: 40px;
+                    }
+
+                    .specs {
+                        h4 {
+                            font-size: 24px;
+                        }
+
+                        p {
+                            font-size: 32px;
+                        }
+                    }
+
+                    .req {
+                        p {
+                            font-size: 45px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:992px) {
+
+    #latest,
+    #tv,
+    #products {
+        .nav-rec {
+            gap: 50px;
+        }
+
+        .wrapper {
+            justify-content: center;
+            gap: 50px;
         }
     }
 }
