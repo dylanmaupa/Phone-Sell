@@ -3,9 +3,10 @@ import data from '../../../data/db';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
   const toggleTab = (index) => {
     setToggleState(index);
   };
@@ -14,9 +15,9 @@ const Products = () => {
     <div id='products'>
       <h2>Mobile Phones</h2>
       <ul className="nav-rec">
-        <li><a onClick={() => toggleTab(1)} className={toggleState === 1 ? "active" : "tab-link"}>Apple</a></li>
+        {/* <li><a onClick={() => toggleTab(1)} className={toggleState === 1 ? "active" : "tab-link"}>Apple</a></li> */}
         <li><a onClick={() => toggleTab(2)} className={toggleState === 2 ? "active" : "tab-link"}>Samsung</a></li>
-        <li><a onClick={() => toggleTab(3)} className={toggleState === 3 ? "active" : "tab-link"}>Huawei</a></li>
+        {/* <li><a onClick={() => toggleTab(3)} className={toggleState === 3 ? "active" : "tab-link"}>Huawei</a></li> */}
         <li><a onClick={() => toggleTab(4)} className={toggleState === 4 ? "active" : "tab-link"}>Itel & Tecno</a></li>
         <li><a onClick={() => toggleTab(5)} className={toggleState === 5 ? "active" : "tab-link"}>Redmi</a></li>
         <li><a onClick={() => toggleTab(6)} className={toggleState === 6 ? "active" : "tab-link"}>Nokia</a></li>
@@ -24,7 +25,7 @@ const Products = () => {
       {data.Products && data.Products.map(product => {
         return (
           <>
-            <div className={toggleState === 1 ? "wrapper Active" : "wrapper"}>
+            {/* <div className={toggleState === 1 ? "wrapper Active" : "wrapper"}>
               {product.apple && product.apple.map(item => {
                 return (
                   <>
@@ -57,7 +58,7 @@ const Products = () => {
                   </>
                 );
               })}
-            </div>
+            </div> */}
             <div className={toggleState === 2 ? "wrapper Active" : "wrapper"}>
               {product.samsung && product.samsung.map(item => {
                 return (
@@ -195,7 +196,7 @@ const Products = () => {
               })}
             </div>
             <div className={toggleState === 6 ? "wrapper Active" : "wrapper"}>
-              {product.apple && product.apple.map(item => {
+              {product.nokia && product.nokia.map(item => {
                 return (
                   <>
                     <div className="card">
@@ -231,7 +232,7 @@ const Products = () => {
           </>
         );
       })}
-      <button className='btn'><a href="">View All Products</a></button>
+      <button className='btn'><Link to="/products">View All Products</Link></button>
     </div>
   );
 };

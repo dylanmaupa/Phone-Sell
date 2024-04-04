@@ -2,6 +2,7 @@ import React from 'react';
 import data from '../../../data/db';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { Link } from 'react-router-dom';
 
 const LatestProduct = () => {
     return (
@@ -39,7 +40,7 @@ const LatestProduct = () => {
                     );
                 })}
             </div>
-            <button className='btn'><a href="">View All Products</a></button>
+            <button className='btn'><Link to="/products">View All Products</Link></button>
         </div>
     );
 };
