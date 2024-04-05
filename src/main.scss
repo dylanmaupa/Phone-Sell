@@ -42,11 +42,15 @@ body {
     height: 500px;
     background: #fff;
     border-radius: 15px;
-    text-align: center;
+    // text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: end;
 
     .btn {
         margin-top: 50px;
         border: none;
+        margin-bottom: 100px;
         border-radius: 0;
         background: none;
 
@@ -326,10 +330,10 @@ body {
         text-align: left;
         font-size: 28px;
     }
-    .wrapper{
-        display: flex;
+    // .wrapper{
+    //     display: flex;
 
-    }
+    // }
 }
 
 
