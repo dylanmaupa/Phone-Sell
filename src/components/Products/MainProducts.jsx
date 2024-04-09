@@ -15,10 +15,10 @@ const MainProducts = () => {
             <ul className="nav-rec">
                 {/* <li><a onClick={() => toggleTab(1)} className={toggleState === 1 ? "active" : "tab-link"}>Apple</a></li> */}
                 <li><a onClick={() => toggleTab(2)} className={toggleState === 2 ? "active" : "tab-link"}>Samsung</a></li>
-                {/* <li><a onClick={() => toggleTab(3)} className={toggleState === 3 ? "active" : "tab-link"}>Huawei</a></li> */}
                 <li><a onClick={() => toggleTab(4)} className={toggleState === 4 ? "active" : "tab-link"}>Itel & Tecno</a></li>
                 <li><a onClick={() => toggleTab(5)} className={toggleState === 5 ? "active" : "tab-link"}>Redmi</a></li>
                 <li><a onClick={() => toggleTab(6)} className={toggleState === 6 ? "active" : "tab-link"}>Nokia</a></li>
+                <li><a onClick={() => toggleTab(3)} className={toggleState === 3 ? "active" : "tab-link"}>TV</a></li>
             </ul>
             {data.MainProducts && data.MainProducts.map(product => {
                 return (
@@ -93,9 +93,9 @@ const MainProducts = () => {
                                 );
                             })}
                         </div>
-                        {/* <h3 className='header'>Huawei</h3>
-                        <div className="wrapper">
-                            {product.huawei && product.huawei.map(item => {
+                        {/* <h3 className='header'>Huawei</h3> */}
+                        <div className={toggleState === 3 ? "wrapper Active" : "wrapper"}>
+                            {product.tv && product.tv.map(item => {
                                 return (
                                     <>
                                         <div className="card">
@@ -103,7 +103,7 @@ const MainProducts = () => {
                                                 <img src={item.image} alt="" />
                                             </div>
                                             <div className="textBox">
-                                                <h3>{item.phone}</h3>
+                                                <h3>{item.tv}</h3>
                                                 <div className="specs">
                                                     <div className="spec">
                                                         <h4>STORAGE</h4>
@@ -127,7 +127,7 @@ const MainProducts = () => {
                                     </>
                                 );
                             })}
-                        </div> */}
+                        </div>
                         {/* <h3 className='header'>Itel & Tecno</h3> */}
                         <div className={toggleState === 4 ? "wrapper Active" : "wrapper"}>
                             {product.itel && product.itel.map(item => {

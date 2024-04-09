@@ -13,25 +13,27 @@
         color: #000;
     }
 }
+
 html {
     scroll-behavior: smooth;
 }
-.loader{
+
+.loader {
     text-align: center;
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
 
 body {
-    padding: 10px;
+    // padding: 0 10px;
     background: #eaeaea;
     position: relative;
 }
 
-.loader{
+.loader {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,18 +41,46 @@ body {
 
 #hero {
     width: 100%;
-    height: 500px;
-    background: #fff;
+    // height: 500px;
+    padding: 20px 0;
+    background: url(./assets/rustic-wood-panel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     border-radius: 15px;
-    // text-align: center;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+    // text-align: center;
+
+    p{
+        color: #b11f1f;
+        font-weight: 700;
+        font-size: 24px;
+    }
+
+    .img{
+        width: 30%;
+        img{
+            width: 100%;
+        }
+    }
+
+    .btn-wrap {
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        gap: 30px;
+
+    }
 
     .btn {
         margin-top: 50px;
         border: none;
-        margin-bottom: 100px;
+        margin-bottom: 60px;
         border-radius: 0;
         background: none;
 
@@ -77,6 +107,7 @@ body {
 #tv {
     text-align: center;
     margin-top: 5rem;
+    margin-inline: 10px;
 
     h2 {
         text-align: center;
@@ -180,10 +211,12 @@ body {
     text-align: left;
 }
 
-#products, #main-products {
+#products,
+#main-products {
     // background: blue;
     text-align: center;
     margin-top: 5rem;
+    margin-inline: 10px;
 
     h2 {
         font-size: 36px;
@@ -318,22 +351,32 @@ body {
 
 #latest,
 #tv,
-#products, #main-products {
+#products,
+#main-products {
     .wrapper {
         flex-wrap: wrap;
     }
 }
 
-#main-products{
-    .header{
+#main-products {
+    .header {
         margin-top: 60px;
         text-align: left;
         font-size: 28px;
     }
+
     // .wrapper{
     //     display: flex;
 
     // }
+}
+
+footer {
+    text-align: center;
+    background: #000;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
 }
 
 
@@ -384,6 +427,11 @@ body {
 }
 
 @media(max-width:992px) {
+    #hero{
+        p{
+            font-size: 18px;
+        }
+    }
 
     #latest,
     #tv,
@@ -400,17 +448,28 @@ body {
     }
 }
 
-@media(max-width:500px){
+@media(max-width:500px) {
+#hero{
+    p{
+        font-size: 14px;
+    }
+    .img{
+        width: 50%;
+        img{
+            width: 100%;
+        }
+    }
+}
     #latest,
     #tv,
     #products,
     #main-products {
-        .nav-rec{
-           li{
-            a{
-                padding-inline: 0;
+        .nav-rec {
+            li {
+                a {
+                    padding-inline: 0;
+                }
             }
-           } 
         }
     }
 }

@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Product from './pages/Product';
 import { useState, CSSProperties, useEffect } from "react";
 import PropagateLoader from "react-spinners/PropagateLoader";
+import Footer from './components/Footer';
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -28,11 +29,13 @@ function App() {
 
             :
 
-
-            <Routes>
-              <Route exact path='/' element={<Home />} />
-              <Route exact path="/products" element={<Product />} />
-            </Routes>
+            <>
+              <Routes>
+                <Route exact path='/' element={<Home />} />
+                <Route exact path="/products" element={<Product />} />
+              </Routes>
+              <Footer />
+            </>
         }
       </Router>
     </>
