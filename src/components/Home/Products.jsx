@@ -85,7 +85,7 @@ const Products = () => {
                         </div>
                         <div className="req">
                           <p>${item.price}</p>
-                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                         </div>
                       </div>
                     </div>
@@ -119,7 +119,7 @@ const Products = () => {
                         </div>
                         <div className="req">
                           <p>${item.price}</p>
-                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                         </div>
                       </div>
                     </div>
@@ -153,7 +153,7 @@ const Products = () => {
                         </div>
                         <div className="req">
                           <p>${item.price}</p>
-                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                         </div>
                       </div>
                     </div>
@@ -187,7 +187,7 @@ const Products = () => {
                         </div>
                         <div className="req">
                           <p>${item.price}</p>
-                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                         </div>
                       </div>
                     </div>
@@ -221,7 +221,7 @@ const Products = () => {
                         </div>
                         <div className="req">
                           <p>${item.price}</p>
-                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                          <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                         </div>
                       </div>
                     </div>

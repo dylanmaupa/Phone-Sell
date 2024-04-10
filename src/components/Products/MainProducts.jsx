@@ -11,7 +11,7 @@ const MainProducts = () => {
 
     return (
         <div id='main-products'>
-            <h2>Mobile Phones</h2>
+            <h2>Our Products</h2>
             <ul className="nav-rec">
                 {/* <li><a onClick={() => toggleTab(1)} className={toggleState === 1 ? "active" : "tab-link"}>Apple</a></li> */}
                 <li><a onClick={() => toggleTab(2)} className={toggleState === 2 ? "active" : "tab-link"}>Samsung</a></li>
@@ -85,7 +85,7 @@ const MainProducts = () => {
                                                 </div>
                                                 <div className="req">
                                                     <p>${item.price}</p>
-                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -120,7 +120,7 @@ const MainProducts = () => {
                                                 </div>
                                                 <div className="req">
                                                     <p>${item.price}</p>
-                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="">Request</a></button>
+                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -155,7 +155,7 @@ const MainProducts = () => {
                                                 </div>
                                                 <div className="req">
                                                     <p>${item.price}</p>
-                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -190,7 +190,7 @@ const MainProducts = () => {
                                                 </div>
                                                 <div className="req">
                                                     <p>${item.price}</p>
-                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -225,7 +225,7 @@ const MainProducts = () => {
                                                 </div>
                                                 <div className="req">
                                                     <p>${item.price}</p>
-                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a href="https://wa.link/2kjdxu">Request</a></button>
+                                                    <button><FontAwesomeIcon className='icon' icon={faWhatsapp} /><a target='_blank' href="https://wa.link/2kjdxu">Request</a></button>
                                                 </div>
                                             </div>
                                         </div>

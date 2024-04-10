@@ -82,19 +82,27 @@ const data = {
   tv: [
     {
       image: phone,
-      title: "",
+      tv: "",
+      size:"",
+      res:"",
     },
     {
       image: phone,
-      title: "",
+      tv: "",
+      size:"",
+      res:"",
     },
     {
       image: phone,
-      title: "",
+      tv: "",
+      size:"",
+      res:"",
     },
     {
       image: phone,
-      title: "",
+      tv: "",
+      size:"",
+      res:"",
     },
   ],
   Products: [
