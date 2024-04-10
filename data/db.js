@@ -554,7 +554,7 @@ const data = {
       tv: [
         {
           image: phone,
-          tv: "Samasong",
+          tv: "Love's Great",
         },
         {
           image: phone,
