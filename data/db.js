@@ -41,7 +41,9 @@ import itelP55plus from "../src/assets/images/itel-p55-plus-1.jpeg";
 import itelS23plus from "../src/assets/images/itel-s23-plus-1.jpeg";
 import redmiN11 from "../src/assets/images/xiaomi-redmi-note-11-global-1.jpeg";
 import redmiN11e from "../src/assets/images/xiaomi-redmi-note-11e-0.jpeg";
-
+import SMCurved from "../src/assets/images/IMG_7403.jpg";
+import SM8kUHD from "../src/assets/images/IMG_7401.jpg";
+import SMCrystalUHD from "../src/assets/images/IMG_7402.jpg";
 
 
 const data = {
@@ -81,28 +83,32 @@ const data = {
   ],
   tv: [
     {
-      image: phone,
-      tv: "",
-      size:"",
-      res:"",
+      image: SMCurved,
+      tv: "Samsung Curved",
+      size:'75"',
+      res:"8k UHD",
+      price:"410",
     },
     {
-      image: phone,
-      tv: "",
-      size:"",
-      res:"",
+      image: SM8kUHD,
+      tv: "Samsung Smart LED",
+      size:'75"',
+      res:"8k HD",
+      price:'330',
     },
     {
-      image: phone,
-      tv: "",
-      size:"",
-      res:"",
+      image: SMCrystalUHD,
+      tv: "Samsung Smart Frameless Series 7Ultra",
+      size:'75"',
+      res:"8k UHD",
+      price:"345",
     },
     {
-      image: phone,
-      tv: "",
-      size:"",
-      res:"",
+      image: SM8kUHD,
+      tv: "Samsung Ordinary LED",
+      size:'75"',
+      res:"4k HD",
+      price:"315",
     },
   ],
   Products: [

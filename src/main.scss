@@ -148,12 +148,14 @@ body {
         .card {
             background: #fff;
             padding: 10px;
+            width: 300px;
             border-radius: 10px;
             box-shadow: 2px 4px 3px #ccc;
             // padding-bottom: 160px;
 
             .img {
-                width: 100%;
+                width: 70%;
+                margin: 0 auto;
 
                 img {
                     width: 100%;
@@ -210,6 +212,7 @@ body {
 #tv h2 {
     text-align: left;
 }
+
 
 #products,
 #main-products {
