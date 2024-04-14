@@ -106,17 +106,17 @@ const MainProducts = () => {
                                                 <h3>{item.tv}</h3>
                                                 <div className="specs">
                                                     <div className="spec">
-                                                        <h4>STORAGE</h4>
-                                                        <p>{item.storage}</p>
+                                                        <h4>SIZE</h4>
+                                                        <p>{item.size}</p>
                                                     </div>
                                                     <div className="spec">
-                                                        <h4>RAM</h4>
-                                                        <p>{item.ram}</p>
+                                                        <h4>RESOLUTION</h4>
+                                                        <p>{item.res}</p>
                                                     </div>
-                                                    <div className="spec">
+                                                    {/* <div className="spec">
                                                         <h4>BATTERY</h4>
                                                         <p>{item.battery}</p>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                                 <div className="req">
                                                     <p>${item.price}</p>

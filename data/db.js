@@ -44,6 +44,28 @@ import redmiN11e from "../src/assets/images/xiaomi-redmi-note-11e-0.jpeg";
 import SMCurved from "../src/assets/images/IMG_7403.jpg";
 import SM8kUHD from "../src/assets/images/IMG_7401.jpg";
 import SMCrystalUHD from "../src/assets/images/IMG_7402.jpg";
+import condere32 from "../src/assets/images/condere 32.webp"
+import H33fl from "../src/assets/images/hisense 33 frameless.webp"
+import S33fl from "../src/assets/images/samsung 33 frmaless.jpeg"
+import H43 from "../src/assets/images/HISENSE-43-UHD-4K-SMART-TV-300x300.jpeg"
+import S43 from "../src/assets/images/image__03617_1200x1200.webp"
+import S50fl from "../src/assets/images/27261631360821.jpeg"
+import H50fl from "../src/assets/images/1-33.webp"
+import H55 from "../src/assets/images/gMfHpWwbDtZwKqUgndfU5njtQ92kGyTijnusBNXm.webp"
+import S55 from "../src/assets/images/1608045961_1.jpeg"
+import H70 from "../src/assets/images/92611630931313.jpeg"
+import S70 from "../src/assets/images/6000202782971.webp"
+import H75 from "../src/assets/images/K4sty2hySOukBCETfOQZRD0veWD0hOIMFzMtkRS2.webp"
+import S75 from "../src/assets/images/818u1IheEvL.jpeg"
+import keson32 from "../src/assets/images/ExquwxcWYAQOoGU.jpeg"
+import H32 from "../src/assets/images/j-5.webp"
+import S32 from "../src/assets/images/61pIRIx9eDL._AC_UF1000,1000_QL80_.jpg"
+import H42 from "../src/assets/images/Hisense-43A4H-43-inch.jpeg"
+import S42 from "../src/assets/images/7OcmUdOlu5CD95YDoBQWOQXX.jpeg"
+import S60 from "../src/assets/images/b01a055b05efadf2f6d1ae729141eef98d1a7a9b.webp"
+import H60 from "../src/assets/images/917SGvj10QL.jpeg"
+import H85 from "../src/assets/images/Hisense-85-inch-Smart-UHD-LED-TV-85A7H.png"
+import S85 from "../src/assets/images/samsung_un85s9vfxza_un85s9vf_85_frameless_uhd_1012057.jpeg"
 
 
 const data = {
@@ -183,20 +205,32 @@ const data = {
       ],
       tv: [
         {
-          image: phone,
-          title: "",
+          image: SMCurved,
+          tv: "Samsung Curved",
+          size:'75"',
+          res:"8k UHD",
+          price:"410",
         },
         {
-          image: phone,
-          title: "",
+          image: SM8kUHD,
+          tv: "Samsung Smart LED",
+          size:'75"',
+          res:"8k HD",
+          price:'330',
         },
         {
-          image: phone,
-          title: "",
+          image: SMCrystalUHD,
+          tv: "Samsung Smart Frameless Series 7Ultra",
+          size:'75"',
+          res:"8k UHD",
+          price:"345",
         },
         {
-          image: phone,
-          title: "",
+          image: SM8kUHD,
+          tv: "Samsung Ordinary LED",
+          size:'75"',
+          res:"4k HD",
+          price:"315",
         },
       ],
       itel: [
@@ -559,20 +593,158 @@ const data = {
       ],
       tv: [
         {
-          image: phone,
-          tv: "Love's Great",
+          image: SMCurved,
+          tv: "Samsung Curved",
+          size:'75"',
+          res:"8k UHD",
+          price:"410",
         },
         {
-          image: phone,
-          tv: "Samasong",
+          image: SM8kUHD,
+          tv: "Samsung Smart LED",
+          size:'75"',
+          res:"8k HD",
+          price:'330',
         },
         {
-          image: phone,
-          tv: "Samasong",
+          image: SMCrystalUHD,
+          tv: "Samsung Smart Frameless Series 7Ultra",
+          size:'75"',
+          res:"8k UHD",
+          price:"345",
         },
         {
-          image: phone,
-          tv: "Samasong",
+          image: SM8kUHD,
+          tv: "Samsung Ordinary LED",
+          size:'75"',
+          res:"4k HD",
+          price:"315",
+        },
+        {
+          image: condere32,
+          tv: "Condere",
+          size:'32"',
+          res:"HD",
+          price:"85",
+        },
+        {
+          image: H33fl,
+          tv: "Hisense Frameless",
+          size:'33"',
+          res:"HD",
+          price:"95",
+        },
+        {
+          image: S33fl,
+          tv: "Samsung Frameless",
+          size:'33"',
+          res:"HD",
+          price:"95",
+        },
+        {
+          image: H43,
+          tv: "Hisense",
+          size:'43"',
+          res:"HD",
+          price:"150",
+        },
+        {
+          image: S43,
+          tv: "Samsung",
+          size:'43"',
+          res:"HD",
+          price:"150",
+        },
+        {
+          image: S50fl,
+          tv: "Samsung Frameless",
+          size:'50"',
+          res:"HD",
+          price:"180",
+        },
+        {
+          image: H50fl,
+          tv: "Hisense Frameless",
+          size:'50"',
+          res:"HD",
+          price:"180",
+        },
+        {
+          image: H55,
+          tv: "Hisense",
+          size:'55"',
+          res:"HD",
+          price:"265",
+        },
+        {
+          image: S55,
+          tv: "Samsung",
+          size:'55"',
+          res:"HD",
+          price:"265",
+        },
+        {
+          image: H70,
+          tv: "Hisense",
+          size:'70"',
+          res:"HD",
+          price:"330",
+        },
+        {
+          image: S70,
+          tv: "Samsung",
+          size:'70"',
+          res:"HD",
+          price:"330",
+        },
+        {
+          image: H75,
+          tv: "Hisense",
+          size:'75"',
+          res:"HD",
+          price:"340",
+        },
+        {
+          image: S75,
+          tv: "Samsung",
+          size:'75"',
+          res:"HD",
+          price:"340",
+        },
+        {
+          image: keson32,
+          tv: "Keson Smart",
+          size:'32"',
+          res:"HD",
+          price:"135",
+        },
+        {
+          image: H32,
+          tv: "Hisense Frameless + Bluetooth",
+          size:'32"',
+          res:"HD",
+          price:"140",
+        },
+        {
+          image: S32,
+          tv: "Samsung Frameless + Bluetooth",
+          size:'32"',
+          res:"HD",
+          price:"140",
+        },
+        {
+          image: H32,
+          tv: "Hisense Smart + TV Box",
+          size:'32"',
+          res:"HD",
+          price:"140",
+        },
+        {
+          image: S32,
+          tv: "Samsung Smart + TV Box",
+          size:'32"',
+          res:"HD",
+          price:"140",
         },
       ],
       itel: [
