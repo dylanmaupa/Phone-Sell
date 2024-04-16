@@ -2,6 +2,9 @@ import data from '../../../data/db';
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+// import { faHome } from '@fortawesome/free-solid-svg-icons';
+import { FaHome } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const MainProducts = () => {
     const [toggleState, setToggleState] = useState(2);
@@ -11,6 +14,7 @@ const MainProducts = () => {
 
     return (
         <div id='main-products'>
+            <Link to={"/"}><FaHome className="homeIcon" /></Link>
             <h2>Our Products</h2>
             <ul className="nav-rec">
                 {/* <li><a onClick={() => toggleTab(1)} className={toggleState === 1 ? "active" : "tab-link"}>Apple</a></li> */}

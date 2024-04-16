@@ -39,6 +39,19 @@ body {
     justify-content: center;
 }
 
+.homeIcon{
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    font-size: 45px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+.homeIcon:hover{
+    color: #b11f1f;
+}
+
 #hero {
     width: 100%;
     // height: 500px;
